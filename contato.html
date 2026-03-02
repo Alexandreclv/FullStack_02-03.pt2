@@ -1,29 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Contato | Marca Exemplo</title>
+	<title>Contato | Instituto Aurora do Vale</title>
 	<link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 	<header>
-		<h1>Marca Exemplo</h1>
+		<h1>Instituto Aurora do Vale</h1>
 		<nav aria-label="Navegação principal">
-			<a href="index.html">Início</a>
-			<a href="sobre.html">Sobre</a>
-			<a href="contato.html">Contato</a>
+			<section class="hero">
+				<a class="cta-button" href="index.html">Início</a>
+				<a class="cta-button" href="sobre.html">Sobre</a>
+				<a class="cta-button" href="contato.html">Contato</a>
+			</section>
 		</nav>
 	</header>
 
+
+
 	<main>
 		<h2>Contato</h2>
-		<p>Entre em contato com a Marca Exemplo pelos canais abaixo.</p>
+
+		<form action="#" method="post">
+			<p>
+				<label for="nome">Nome</label><br />
+				<input type="text" id="nome" name="nome" required />
+			</p>
+			<p>
+				<label for="email">Email</label><br />
+				<input type="email" id="email" name="email" required />
+			</p>
+			<p>
+				<label for="mensagem">Mensagem</label><br />
+				<textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+			</p>
+			<button type="submit">Enviar</button>
+		</form>
+
+		<br><br>
+		<p>Entre em contato com o Instituto Aurora do Vale pelos canais abaixo.</p>
 	</main>
 
 	<footer>
-		<p>&copy; 2026 Marca Exemplo</p>
-		<p>Email: contato@marcaexemplo.com</p>
+		<p>Email: <a href="mailto:contato@auroradovale.edu.br">contato@auroradovale.edu.br</a></p>
+		<p>Telefone: (31) 98668-1134</p>
+		<p>Instagram: <a href="https://instagram.com/institutoauroradovale" target="_blank"
+				rel="noopener noreferrer">@institutoauroradovale</a></p>
+		<p>&copy; 2026 Instituto Aurora do Vale</p>
 	</footer>
 </body>
+
 </html>

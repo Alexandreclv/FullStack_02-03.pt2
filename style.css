@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	line-height: 1.5;
+}
+
+header,
+main,
+footer {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 16px;
+}
+
+nav {
+	display: flex;
+	gap: 12px;
+	flex-wrap: wrap;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+.hero {
+	padding: 12px 0 8px;
+}
+
+.cta-button {
+	display: inline-block;
+	padding: 10px 16px;
+	margin-top: 10px;
+	text-decoration: none;
+	border: 1px solid #222;
+	border-radius: 8px;
+}
+
+.benefits {
+	margin-top: 24px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 12px;
+}
+
+.card {
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 14px;
+}

@@ -11,3 +11,6 @@ publicação na internet
 1) Construção das páginas (HTML)
 2) Estilização (CSS)
 3) Versionamento com Git e Deploy no Vercel
+
+## Site:
+site-escola-seven-flax.vercel.app
